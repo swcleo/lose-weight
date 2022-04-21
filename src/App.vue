@@ -54,7 +54,7 @@ export default defineComponent({
         </div>
         <p v-if="result" class="text-gray-700">
           <span class="text-bold">減重率：</span>
-          <span class="underline decoration-pink-500">{{ result }} %</span>
+          <span class="underline decoration-pink-400">{{ result }} %</span>
         </p>
       </div>
     </div>
