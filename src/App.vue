@@ -1,5 +1,7 @@
 <script lang="ts">
-export default {
+import { defineComponent } from "vue";
+
+export default defineComponent({
   data() {
     return {
       origin: "",
@@ -30,7 +32,7 @@ export default {
       this.result = "";
     },
   },
-};
+});
 </script>
 
 <template>
